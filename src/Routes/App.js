@@ -6,6 +6,7 @@ import Home from '../pages/Home/Home';
 import BuildPizza from '../pages/BuildPizza/BuildPizza';
 import OrderForm from "../pages/OrderForm/OrderForm";
 import Administrator from "../pages/Administrator/Administrator";
+import Footer from "../Components/Footer/Footer";
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/client/build-pizza/order/form-client" element={<OrderForm/>} />
             <Route path="/administrator" element={<Administrator/>}/>
         </Routes>
+        <Footer/>
     </HashRouter>
     )
 }
